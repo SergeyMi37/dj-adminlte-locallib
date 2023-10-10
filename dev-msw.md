@@ -1,9 +1,9 @@
 # useful commands
 ## django ---------------------------------------------------------------
 ```
-python -m venv dtb_venv
-source dtb_venv/bin/activate
-source dtb_venv/Scripts/activate # for Windows
+python -m venv env
+source env/bin/activate
+source env/Scripts/activate # for Windows
 pip install -r requirements.txt
 
 wget --continue https://github.com/intersystems-community/iris-driver-distribution/raw/main/DB-API/intersystems_irispython-3.2.0-py3-none-any.whl &&     pip install intersystems_irispython-3.2.0-py3-none-any.whl &&     rm intersystems_irispython-3.2.0-py3-none-any.whl

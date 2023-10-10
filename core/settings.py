@@ -62,7 +62,9 @@ INSTALLED_APPS = [
 
     "home",
     # app msw params
-    'appmsw',
+    "appmsw",
+    # locallibrary
+    "catalog",
 ]
 
 MIDDLEWARE = [
